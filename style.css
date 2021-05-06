@@ -168,12 +168,14 @@ header{
     display:flex;
     flex-direction:row;
     justify-content: space-between;
+    padding:20px;
 }
 @media only screen and (max-width: 768px){
     #shadowBox{
         display:flex;
         flex-direction:column;
         justify-content: space-between;
+        width: 80%;
     }
 }
 
@@ -271,7 +273,8 @@ header{
 
 #fiveDiv{
     text-align: center;
-    padding:0 50px;
+
+
 }
 
 .btn-style-white {
@@ -298,6 +301,7 @@ header{
     background-color: #1c3288;
     text-align: center;
     padding:50px;
+    
 }
 
 
@@ -378,7 +382,7 @@ header{
         
     }
 
-    h3{
+    h4{
         color:black;
     }
     
